@@ -28,6 +28,14 @@
   - [D - Frameworks Back-End](#d---frameworks-back-end)
   - [E - Bases de données](#e---bases-de-données)
 
+- [III - Choix final](#iii---choix-final)
+  - [A - Langage Front-End](#a---langage-front-end-1)
+  - [B - Framework Front-End](#b---framework-front-end-1)
+  - [C - Langage Back-End](#c---langage-back-end-1)
+  - [D - Framework Back-End](#d---framework-back-end-1)
+  - [E - Base de données](#e---base-de-données-1)
+
+
 ## I - Smash Here
 
 ### A - Introduction
@@ -38,7 +46,7 @@ Elle vise à offrir aux joueurs et coachs des outils d'apprentissage interactifs
 
 ### B - Vision
 
-Smash Here sera dans un premier temps une plateforme Web, puis sur le long terme elle sera développée sur mobile (Android et iOS) nativement (Kotlin et Swift) dans l'idée d'y ajouter des fonctionnalités Natives.
+Smash Here sera dans un premier temps une plateforme Web, puis sur le long terme elle sera développée sur mobile (Android et iOS) nativement (**Kotlin** et **Swift**) dans l'idée d'y ajouter des fonctionnalités Natives.
 
 Le développement de la plateforme va se concentrer sur les points suivants :
 
@@ -121,194 +129,124 @@ Affinité du développeur avec chaque technologie :
 
 ## II - Matrices décisionnelles
 
+<p align="center">
+  <a href="https://youtu.be/3FmN46XQius" target="blank"><img src="https://file.forms.app/sitefile/Decision-Matrix-Analysis-1.png" width="800" alt="Matrices de décisions" /></a>
+
 ### A - Langages Front-End
 
-Pour la matrice décisionnelle concernant le choix du langage front-end pour votre projet, voici une évaluation des principaux langages couramment utilisés pour le développement web. Les langages choisis sont **JavaScript**, **TypeScript**, et **Dart**.
+Les langages Front-End sélectionnés sont choisi en fonction deplusieurs critères d'évaluation. Les langages choisis sont **JavaScript**, **TypeScript**, et **Dart**.
 
-J'ai décidé d'intégrer Dart car il permet un développement Full-Stack.
+Le **Dart** est intégrer dans cette liste car il permet un développement Full-Stack (web et mobile).
 
-Les notes sont basées sur des critères de performance, facilité d'apprentissage, coût de développement, durabilité à long terme, temps de développement, consommation d'énergie, popularité et lisibilité de la syntaxe.
+Les notes vont de 1 à 5, 1 correspondant à "non maîtrisé" et 5 à "pleinement maîtrisé".
 
 Ces informations s’appuient sur des sources diverses telles que <a href="https://survey.stackoverflow.co/2024/" target="_blank">**Stack Overflow Developer Survey**</a>, <a href="https://stateofjs.com/en-US" target="_blank">**State of JS 2022**</a>, <a href="https://mdn.dev/archives/insights/" target="_blank">**MDN Web Docs**</a>.
 
-Les notes sont basées sur des critères de performance, facilité d'apprentissage, coût de développement, durabilité à long terme, temps de développement, consommation d'énergie, popularité et lisibilité de la syntaxe. Ces informations s’appuient sur des sources diverses telles que **Stack Overflow Developer Survey**, **State of JS**, et des analyses de développeurs web reconnus.
+<u><b>Critères d'évaluations :</b></u>
 
-| Langages     | Performance | Facilité d'apprentissage | Coût de développement | Durabilité à long terme | Temps de développement | Consommation d'énergie | Popularité du langage | Syntaxe et lisibilité | Maîtrise du développeur |
-|--------------|-------------|--------------------------|------------------------|-------------------------|------------------------|------------------------|------------------------|------------------------|--------------------------|
-| JavaScript   | 4           | 4                        | 4                      | 5                       | 5                      | 3                      | 5                      | 4                      | 4                        |
-| TypeScript   | 4           | 3                        | 4                      | 5                       | 4                      | 3                      | 4                      | 5                      | 3                        |
-| Dart         | 3           | 3                        | 3                      | 4                       | 3                      | 4                      | 3                      | 4                      | 0                      |
+- **Performance**
 
-**JavaScript** :
+Avoir un langage performant permet d'avoir une application plus rapide et de réduire la consommation d'énergie allouée.
 
-- **Performance** : Élevée, car il s’agit d’un langage interprété côté client, permettant des interactions dynamiques et rapides.
-- **Facilité d'apprentissage** : Très accessible, avec une grande documentation et de nombreux tutoriels pour débutants.
-- **Coût de développement** : Faible, car il bénéficie d'une large communauté open-source et de nombreuses bibliothèques gratuites.
-- **Durabilité à long terme** : Très solide, JavaScript étant le langage principal du web depuis des décennies.
-- **Temps de développement** : Optimal, JavaScript est bien supporté par la plupart des frameworks modernes (React, Angular, Vue).
-- **Consommation d'énergie** : Moyenne, dépend des optimisations et du navigateur.
-- **Popularité** : Très populaire, étant le langage web dominant (Source : Stack Overflow Developer Survey).
-- **Syntaxe et lisibilité** : Bonne lisibilité, bien que complexe pour les fonctionnalités avancées.
+- **Facilité d'apprentissage**
 
-**TypeScript** :
+Les langages bas niveaux (C, Rust, Scala) ont tendances à  être plus difficiles à maîtriser que les langages haut niveau (Python, Javascript).
 
-- **Performance** : Comparable à JavaScript, car il compile en JavaScript.
-- **Facilité d'apprentissage** : Un peu plus complexe que JavaScript en raison de la typage statique.
-- **Coût de développement** : Faible, avec une communauté croissante et des outils bien intégrés.
-- **Durabilité à long terme** : Très élevée, étant de plus en plus adopté dans l’industrie pour sa robustesse.
-- **Temps de développement** : Moins rapide que JavaScript, mais améliore la détection des erreurs dès la compilation.
-- **Consommation d'énergie** : Moyenne, car similaire à JavaScript.
-- **Popularité** : En croissance, souvent préféré dans des projets de grande envergure pour sa maintenabilité.
-- **Syntaxe et lisibilité** : Très lisible, avec un typage fort qui améliore la compréhension.
+- **Coût de développement**
 
-**Dart** :
+Certains langages ne sont pas open-source, d'autres sont plus long à travailler avec.
 
-- **Performance** : Bonne, surtout lorsqu'il est utilisé avec Flutter pour des applications web et mobiles.
-- **Facilité d'apprentissage** : Moyenne, moins accessible que JavaScript et TypeScript.
-- **Coût de développement** : Légèrement plus élevé, car moins de développeurs maîtrisent Dart.
-- **Durabilité à long terme** : Prometteuse, mais encore incertaine en dehors de l'écosystème Google.
-- **Temps de développement** : Plus long, car moins de bibliothèques disponibles.
-- **Consommation d'énergie** : Moyenne, bien optimisée avec Flutter.
-- **Popularité** : Moins populaire que JavaScript et TypeScript, mais en croissance grâce à Flutter.
-- **Syntaxe et lisibilité** : Bonne, similaire à JavaScript avec des améliorations de lisibilité.
+- **Durabilité à long terme**
 
-Voici une matrice de décision pour les langages Back-End que vous envisagez (Python, Node.js, Java, Go, Rust) pour le développement de votre plateforme. Cette matrice prend en compte divers critères importants pour un projet comme le vôtre, avec une notation de 1 à 5 pour chaque critère.
+L'évolutivité du langage est importante, un langage non maintenu peut avoir des failles de sécurité, mais aussi une communauté inactive.
+
+- **Temps de développement**
+
+Lié au coût de développement un langage qui prend trop de temps de développement est contraignant pour des raisons économiques et de deadlines.
+
+- **Consommation d'énergie**
+
+Pour des raison environnementales et économiques le langage doit avoir une consommation basse.
+
+- **Popularité du langage**
+
+Avoir une communauté active pour demander de l'aide permet d'avoir un temps de développement réduit.
+
+| Langages     | Performance | Facilité d'apprentissage | Coût de développement | Durabilité à long terme | Temps de développement | Consommation d'énergie | Popularité du langage  | Maîtrise du développeur |
+|--------------|-------------|--------------------------|------------------------|-------------------------|------------------------|------------------------|------------------------|--------------------------|
+| JavaScript   | 4           | 4                        | 4                      | 5                       | 5                      | 3                      | 5                                             | 4                        |
+| TypeScript   | 4           | 3                        | 4                      | 5                       | 4                      | 3                      | 4                                             | 3                        |
+| Dart         | 3           | 3                        | 3                      | 4                       | 3                      | 4                      | 3                                             | 0                      |
+
+JavaScript a initialement été conçu comme un langage côté client, il s'est ensuite étendu au développement côté serveur. Cependant, ses limites en matière de programmation orientée objet et son typage dynamique peuvent rendre son adoption complexe pour les projets de grande envergure. Pour combler ces lacunes, TypeScript a été introduit en tant que couche supplémentaire de JavaScript, en y ajoutant notamment le typage statique et d'autres fonctionnalités facilitant la gestion de projets à grande échelle.
+
+TypeScript complète Javascript, c'est un langage orienté objet qui offre des fonctionnalités absentes en JavaScript, comme le typage statique et le support des interfaces. Le typage statique permet de détecter des erreurs dès la compilation, ce qui réduit les erreurs lors des compilation. TypeScript est compatible avec JavaScript et permet d'utiliser les bibliothèques JavaScript existantes tout en intégrant du code TypeScript, donc les 2 langages se complètes.
+
+**Source :**
+
+<a href="https://www.geeksforgeeks.org/difference-between-typescript-and-javascript/" target="_blank">Geeks For Geeks</a>
 
 ### B - Langages Back-End
 
-L'avantage du Back-End est qu'il pourra servir pour toutes les solutions Front-End.
-
-Nous avons intégré **Rust** dans cette liste car c'est un langage que le dévelopeur reste favorable à son utilisation potentielle pour le projet.
+L'avantage du Back-End est qu'il pourra servir pour toutes les solutions Front-End et/ou mobile.
+**Rust** est intégré dans cette liste car c'est un langage que le dévelopeur peut potentiellement utiliser pour le projet.
+Les critères de notations pour les langages Back-End sont les mêmes que les langages Front-End.
 
 | Langages | Performance | Facilité d'apprentissage | Coût de développement | Durabilité à long terme | Temps de développement | Consommation d'énergie | Popularité du langage | Syntaxe et lisibilité | Maîtrise du développeur |
 |----------|-------------|--------------------------|------------------------|-------------------------|------------------------|------------------------|------------------------|------------------------|--------------------------|
 | Java     | 5           | 3                        | 4                      | 5                       | 4                      | 4                      | 5                      | 4                      | 4                        |
 | Go       | 5           | 3                        | 4                      | 4                       | 3                      | 5                      | 4                      | 4                      | 2                        |
 | Python   | 4           | 5                        | 3                      | 5                       | 5                      | 3                      | 5                      | 5                      | 3                        |
-| Node.js  | 4           | 4                        | 4                      | 4                       | 5                      | 4                      | 5                      | 4                      | 4                        |
 | Rust     | 5           | 2                        | 3                      | 5                       | 3                      | 5                      | 3                      | 3                      | 0                      |
 
-**Performance**
+**Python**
 
-- **Java, Go, et Rust** sont réputés pour leurs performances élevées, notamment grâce à leur gestion efficace de la mémoire et leurs capacités de traitement. Rust excelle particulièrement dans ce domaine avec une optimisation de bas niveau sans compromis sur la sécurité.
-- **Python et Node.js** offrent des performances modérées mais peuvent être optimisés pour des applications web et API, bien qu'ils ne soient pas aussi rapides que les autres langages pour des applications très intensives en calcul.
+L'avantage principal de Python est sa syntaxe, elle est claire et lisible. Il dispose de frameworks très populaire et robustes comme Django (orienté MVC) et Flask (micro-framework) qui s’adaptent aux petites applications jusqu'au grandes structures complexes. Le problème de Python c'est sa performance sur des applications multi-thread en raison de son GIL (Global Interpreter Lock). Il a cependant un écosystème très développé et une large communauté.
 
-**Facilité d'apprentissage**
+**Java**
 
-- **Python et Node.js** sont très accessibles, surtout pour des développeurs débutants ou intermédiaires, ce qui réduit le temps nécessaire pour atteindre une productivité élevée.
-- **Go** a une courbe d'apprentissage modérée et est relativement simple pour les développeurs venant de langages orientés objets.
-- **Java** est plus complexe en raison de son écosystème large et de sa structure stricte.
-- **Rust** est le plus difficile à apprendre en raison de sa syntaxe complexe et de ses concepts avancés de gestion de mémoire.
+Java est un langage orienté objet robuste, il est apprécié pour sa stabilité et surtout pour sa sécurité. Il est en général privilégié dans les grandes entreprises. Les frameworks comme Spring permettent de construire des applications complexes et évolutives, ce qui fait de Java un choix privilégié pour des projets nécessitant une gestion de transactions lourdes. Cependant, Java peut être verbeux contrairement aux langages et est plus complexe à appréhender, bien qu’il bénéficie d’une communauté massive et de nombreux outils.
 
-**Coût de développement**
+**Go**
 
-- **Python et Node.js** sont associés à des coûts de développement relativement faibles, principalement en raison de leurs vastes écosystèmes de bibliothèques et leur communauté active.
-- **Go** et **Java** nécessitent davantage de temps et de connaissances avancées, augmentant ainsi les coûts, bien que leur écosystème soit bien fourni.
-- **Rust** a des coûts potentiellement élevés dus à sa courbe d’apprentissage et à sa relative nouveauté, limitant la disponibilité des développeurs spécialisés.
+Go (ou Golang) se distingue par sa simplicité et sa performance, il est parfait pour les systèmes distribués et les microservices. Avec son support natif de la concurrence (goroutines), Go est idéal pour les applications qui nécessitent une grande scalabilité. Il a cependant un écosystème plus jeune contrairement aux autre langages de cette liste, certains outils et frameworks ne sont pas encore aussi matures que ceux des autres langages.
 
-**Durabilité à long terme**
+**Rust**
 
-- **Java** est souvent choisi pour sa stabilité et sa robustesse à long terme, notamment dans les grandes entreprises.
-- **Python, Go, et Rust** sont également bien positionnés en matière de durabilité, Rust ayant particulièrement gagné en popularité auprès des entreprises technologiques de pointe.
-- **Node.js** est relativement durable grâce à l’écosystème JavaScript, mais des alternatives plus performantes peuvent être envisagées selon les besoins du projet.
+Rust a été créé pour résoudre des problèmes complexes de gestion de mémoire et de performance, il est devenu l’un des langages les plus appréciés dans le monde du développement logiciel, avec un statut "langage le plus aimé" dans le sondage Stack Overflow 2023. Rust propose une syntaxe moderne, une sécurité mémoire stricte, et des capacités avancées de concurrence, offrant ainsi des performances robustes pour le développement de systèmes et le back-end. Son adoption par des entreprises majeures comme Amazon, Discord, et Cloudflare témoigne de sa puissance dans des environnements exigeants. Il se démarque par son modèle de propriété, qui garantit la sécurité de la mémoire sans avoir recours à un ramasse-miettes (garbage collector). Ce modèle, combiné avec un typage statique, permet de détecter les erreurs avant la compilation, minimisant les risques d’erreurs mémoire et améliorant la fiabilité des applications. Il offre des abstractions zéro-coût, optimisant les performances sans sacrifier la lisibilité du code. Ses fonctionnalités modernes lui permettent de réduire le temps d'exécution des applications, ce qui le rend adapté aux projets nécessitant des performances élevées. Il a une communauté active, avec une documentation complète, des forums de soutien.
 
-**Temps de développement**
+**Source :**
 
-- **Python et Node.js** sont conçus pour une productivité rapide, réduisant le temps de développement, particulièrement pour des projets web et API.
-- **Go** est également rapide pour le développement, notamment grâce à sa simplicité et à son modèle de concurrence intégré.
-- **Java** et **Rust** peuvent nécessiter plus de temps en raison de leur complexité et de leur verbosité (surtout pour Java), mais produisent des applications robustes.
-
-**Consommation d'énergie**
-
-- **Rust** et **Go** consomment moins d’énergie, car ils sont optimisés pour l’efficacité et la gestion de la mémoire.
-- **Java** et **Python** ont une consommation énergétique moyenne.
-- **Node.js** a une consommation d’énergie plus élevée dans certains cas, notamment lorsque les processus sont intensifs ou non optimisés pour des charges importantes.
-
-**Popularité du langage**
-
-- **Python et JavaScript (Node.js)** sont parmi les langages les plus populaires, bénéficiant d’une vaste communauté et d'un large choix de ressources.
-- **Java** reste très populaire dans le secteur des entreprises.
-- **Go** et **Rust** gagnent rapidement en popularité, mais leur adoption est moins étendue.
-
-**Syntaxe et lisibilité**
-
-- **Python** excelle dans la lisibilité, permettant de maintenir un code propre et accessible.
-- **Node.js** est également bien noté, bien que certaines complexités dans la gestion des promesses et des asynchrones puissent nuire à la lisibilité.
-- **Go** est conçu pour être lisible et minimaliste, bien qu’il manque certaines fonctionnalités avancées.
-- **Java** et **Rust** sont moins accessibles en raison de leur verbosité et de leur structure plus rigide (Java) ou complexe (Rust).
-
-**Sources**
-
-- Stack Overflow Developer Survey 2023 : [https://insights.stackoverflow.com/survey/2023](https://insights.stackoverflow.com/survey/2023)
-- State of Developer Ecosystem by JetBrains : [https://www.jetbrains.com/lp/devecosystem-2023/](https://www.jetbrains.com/lp/devecosystem-2023/)
-- GitHub Octoverse 2023 : [https://octoverse.github.com/](https://octoverse.github.com/)
+- <a href="https://roadmap.sh/backend/languages" target="_blank">Roadmap.sh</a>
+- <a href="https://strapi.io/blog/rust-vs-other-programming-languages-what-sets-rust-apart" target="_blank">Strapi</a>
 
 ### C - Frameworks Front-End
 
-Le développeur est entièrement ouvert concernant l'utilisation du Framework Front-End. Il a cependant quelques réserves sur l'utilisation de Flutter (car il ne maîtrise pas le Dart bien qu'il se rapproche du Javascript).
+Le développeur est entièrement ouvert concernant le choix du Framework Front-End. Il a cependant quelques réserves sur l'utilisation de Flutter (car il ne maîtrise pas le Dart bien qu'il se rapproche du Javascript).
 
 | Framework | Performance | Écosystème | Développement | Architecture | Déploiement | Sécurité | Coûts | Mobile/Responsive |
 |-----------|-------------|------------|---------------|--------------|-------------|----------|-------|--------------------|
-| React     | 4           | 5          | 5             | 4            | 5           | 4        | 5     | 5                  |
 | Vue.js    | 4           | 4          | 5             | 4            | 5           | 4        | 5     | 4                  |
 | Svelte    | 5           | 3          | 4             | 3            | 4           | 3        | 5     | 4                  |
 | Angular   | 4           | 5          | 3             | 5            | 5           | 5        | 4     | 5                  |
 | Flutter (Web) | 3       | 3          | 4             | 4            | 4           | 4        | 5     | 5                  |
 
-**Performance**
+**Angular**
 
-- **Svelte** excelle en performance, car il compile directement le code au moment du build, sans dépendre d'un runtime lourd, ce qui allège le code final.
-- **React, Vue.js, et Angular** offrent des performances solides, bien qu’Angular puisse être plus lourd en raison de ses fonctionnalités intégrées.
-- **Flutter (Web)** est performant mais légèrement en deçà pour le Web, car il n'est pas originellement conçu pour les applications Web.
+C'est un framework Front-End complet, il est souvent privilégié pour des applications de grande envergure qui nécessitent un support robuste et une architecture complexe. Développé par Google, Angular utilise TypeScript, comme nous l'avons souligné précédemment ça favorise la détection des erreurs lors du développement. Son architecture est modulaire et permet de gérer des fonctionnalités riches et d'assurer une évolutivité. Il a cependant une courbe d'apprentissage plutôt raide, ce qui peut nécessiter un certain temps d'adaptation.
 
-**Écosystème**
+**Vue**
 
-- **React** dispose d'un écosystème large et mature avec une multitude de bibliothèques, plugins et extensions disponibles. Sa popularité permet un choix varié de ressources.
-- **Vue.js** et **Angular** possèdent également des écosystèmes solides, mais React reste en tête en termes de disponibilité de packages et de communauté.
-- **Svelte** et **Flutter (Web)** ont des écosystèmes moins étendus, bien que Flutter soit soutenu par Google et commence à s’enrichir.
+est un framework progressif, créé par <a href="https://evanyou.me/" target="_blank">Evan You</a>, qui allie les avantages d’Angular et la librairie React. Léger et rapide à télécharger, Vue est facile à prendre en main, ce qui en fait un excellent choix pour les développeurs débutants ou pour des projets nécessitant une application légère et performante. Vue utilise un DOM virtuel et prend en charge la liaison de données bidirectionnelle, ce qui le rend efficace pour gérer des applications de taille moyenne. Cependant, bien que sa communauté soit en pleine croissance, elle reste plus petite que celle d’Angular et de React, ce qui limite les ressources d’apprentissage pour les grands projets.
 
-**Développement**
+**Svelte**
 
-- **React et Vue.js** sont appréciés pour leur facilité de prise en main et la rapidité de développement. Les outils comme Vue CLI et Create React App simplifient les démarrages de projet.
-- **Svelte** est très intuitif pour les développeurs, mais certains concepts peuvent nécessiter un apprentissage supplémentaire.
-- **Angular** est plus complexe, avec une courbe d’apprentissage plus raide en raison de son architecture complète et de TypeScript.
-- **Flutter (Web)** simplifie les déploiements multiplateformes, bien que le développement pour le Web puisse présenter quelques limitations en termes de support des API natives du Web.
+Svelte propose une approche radicalement différente des autres frameworks en déplaçant la majorité du travail vers une étape de compilation. Contrairement aux autres frameworks qui utilisent le DOM virtuel, Svelte compile directement en JavaScript pur, ce qui optimise les performances et réduit le poids de l’application. Son code est naturellement réactif sans besoin de syntaxe spéciale, et son apprentissage est facilité par l'utilisation de HTML, CSS, et JavaScript/TypeScript standards. Cependant, Svelte a une communauté plus petite et un écosystème limité, ce qui peut poser des défis pour les projets plus complexes nécessitant des bibliothèques tierces.
 
-**Architecture**
+**Sources :**
 
-- **Angular** est orienté vers une architecture bien structurée avec des modules, services et directives, offrant une bonne organisation pour les projets à grande échelle.
-- **React** est flexible et permet différentes architectures, bien que moins structurée qu'Angular.
-- **Vue.js** offre une structure équilibrée qui est bien adaptée aux projets de taille moyenne.
-- **Svelte** a une structure simple, bien adaptée aux petits projets mais moins robuste pour les applications complexes.
-- **Flutter (Web)** est basé sur le système de widgets, qui est intuitif pour le mobile, mais moins adapté aux pratiques Web classiques.
-
-**Déploiement**
-
-- **React, Vue.js, et Angular** sont tous bien adaptés aux déploiements Web, avec des options d’optimisation et des builds légers.
-- **Svelte** se distingue par ses builds extrêmement légers.
-- **Flutter (Web)** est encore en développement pour le Web et peut nécessiter des ajustements pour des optimisations Web.
-
-**Sécurité**
-
-- **Angular** est reconnu pour ses bonnes pratiques de sécurité par défaut, telles que la protection contre les injections XSS.
-- **React** et **Vue.js** sont relativement sûrs, bien que certaines vulnérabilités puissent apparaître si les bonnes pratiques ne sont pas respectées.
-- **Svelte** et **Flutter (Web)** n'ont pas les mêmes options de sécurité intégrées que d'autres frameworks, bien que des protections de base puissent être implémentées.
-
-**Coûts**
-
-- Tous ces frameworks sont open-source et gratuits, ce qui minimise les coûts directs.
-- **React** et **Vue.js** bénéficient de nombreux outils gratuits et de ressources qui facilitent le développement sans nécessiter des coûts supplémentaires.
-
-**Mobile/Responsive**
-
-- **React** et **Flutter (Web)** offrent une excellente prise en charge des applications responsives et sont idéaux pour le développement multiplateforme, Flutter étant natif pour le mobile.
-- **Vue.js** et **Angular** sont également bien adaptés pour les applications responsives, bien que la configuration puisse parfois être plus complexe.
-- **Svelte** est également capable de prendre en charge des interfaces adaptatives, mais il est moins utilisé pour les applications multiplateformes.
-
-**Sources**
-
-- **State of JavaScript Survey 2023** : [https://stateofjs.com/en-us/](https://stateofjs.com/en-us/)
-- **Stack Overflow Developer Survey 2023** : [https://insights.stackoverflow.com/survey/2023](https://insights.stackoverflow.com/survey/2023)
+- <a href="https://radixweb.com/blog/angular-vs-react-vs-vue" target="_blank">Radix.com</a>
+- <a href="https://kinsta.com/blog/svelte-vs-react/" target="_blank">Kinsta</a>
 
 ### D - Frameworks Back-End
 
@@ -318,52 +256,30 @@ Le développeur est entièrement ouvert concernant l'utilisation du Framework Fr
 | Express (Node.js) | 4       | 5          | 5             | 4            | 5           | 4        | 5     | 4                  |
 | Spring Boot (Java) | 5       | 4          | 3             | 5            | 4           | 5        | 4     | 4                  |
 | Gin (Go)         | 5           | 3          | 3             | 4            | 5           | 5        | 4     | 4                  |
-| Rocket (Rust)    | 5           | 3          | 2             | 4            | 4           | 5        | 4     | 3                  |
 
-**Performance**
+**Django**
 
-- **Gin (Go)** et **Rocket (Rust)** offrent des performances élevées, car Go et Rust sont conçus pour des applications à faible latence et nécessitant une grande rapidité d'exécution.
-- **Spring Boot (Java)** est également performant, particulièrement pour les applications d’entreprise.
-- **Express (Node.js)** offre de bonnes performances mais reste moins rapide que Go et Rust pour les charges de travail élevées.
-- **Django (Python)** est plus adapté aux applications nécessitant une évolutivité rapide et moins intensives en calcul.
+Django est le framework qui correspond aux applications qui nécessitent une grande sécurité et une scalabilité robuste. Il a une approche "batteries-included", il fournit plusieurs outils pour gérer différents aspects d'une application : l'authentification, la gestion de bases de données et le SEO par exemple. Il est notamment apprécié dans les secteurs qui nécessitent des applications rapides à mettre en œuvre, comme les médias sociaux ou les plateformes de contenu.
 
-**Écosystème**
+**Express.js**
 
-- **Django** et **Express** disposent de vastes écosystèmes, riches en bibliothèques, extensions, et une communauté large qui offre de nombreux outils pour le développement rapide.
-- **Spring Boot** a également un bon écosystème, mais il est plus orienté vers les applications Java d’entreprise.
-- **Gin** et **Rocket** ont des écosystèmes plus limités, bien que la popularité de Go et Rust augmente.
+Express est le framework de l'environnement NodeJS (Javascript). C'est un framework minimaliste, il très performant et flexible et souvent choisi pour des applications avec la pile de technologies MEAN (MongoDB, Express.js, AngularJS et Node.js) et MERN (MongoDB, Express, React et Node.js). Express est un framework simple d'utilisation. Sa simplicité et sa compatibilité avec JavaScript côté serveur et client facilitent le développement full-stack. Express est idéal pour les API REST et les applications qui nécessitent du temps réel.
 
-**Développement**
+**Spring Boot**
 
-- **Express** est facile à utiliser et bénéficie d'une grande souplesse, tandis que **Django** facilite la rapidité de développement avec ses outils intégrés (ORM, authentification).
-- **Spring Boot** est plus complexe, nécessitant une courbe d’apprentissage plus raide.
-- **Gin** et **Rocket** demandent des connaissances techniques plus avancées, surtout pour optimiser les performances.
+Spring Boot est le framework de l'environnement Java, c'est un framework open-source puissant et généralement pour les applications d'entreprise. Il dispose d'une gestion flexible des dépendances et un support étendu pour les microservices, il est couramment utilisé pour les projets nécessitant une scalabilité horizontale (la scalabilité horizontale signifie qu'une application peut gérer plus de trafic ou de charge en ajoutant davantage de serveurs, plutôt qu'en augmentant la puissance d'un seul serveur) et une forte sécurité.
 
-**Architecture**
+**Gin**
 
-- **Django** et **Spring Boot** fournissent une architecture bien structurée, adaptée pour des applications complexes, avec un cadre robuste de modélisation et de logique métier.
-- **Express** est flexible mais moins structuré.
-- **Gin** et **Rocket** nécessitent une structuration manuelle, ce qui offre de la flexibilité mais demande plus d'organisation.
+Go est un langage qui ne nécessite pas de framework, son environnement et ses fonctionnalités lui permettent de réaliser des applications sans passer par un framework. Cependant pour les besoin de notre analyse nous présentons tout de même l'un de ces frameworks les plus connus : Gin.
 
-**Déploiement**
+Gin est un framework minimaliste orienté vers la rapidité et l'efficacité, il parfait pour les microservices et les applications nécessitant un support de traitement rapide. Son architecture est légère et son système de middleware le rendent compétitif pour les API nécessitant des performances optimales.
 
-- Tous les frameworks se déploient facilement sur la plupart des environnements cloud (AWS, Azure, GCP) et supportent des conteneurs Docker, ce qui est essentiel pour les déploiements modernes.
-- **Django**, **Express**, et **Spring Boot** sont bien documentés pour les déploiements, facilitant leur mise en production.
+**Sources :**
 
-**Sécurité**
-
-- **Spring Boot** et **Django** sont réputés pour leurs pratiques de sécurité intégrées, incluant la gestion des sessions, la protection contre les attaques XSS et CSRF.
-- **Rocket** et **Gin** offrent également de bonnes bases de sécurité, mais les mises en place de certaines protections demandent plus de configuration manuelle.
-- **Express** est sûr, mais la sécurité dépend des bonnes pratiques du développeur en raison de son minimalisme.
-
-**Coûts**
-
-- Tous ces frameworks sont open-source et gratuits, minimisant ainsi les coûts initiaux de développement.
-- **Express** et **Django** sont particulièrement rentables en raison des outils gratuits disponibles pour une productivité accrue.
-
-**Mobile/Responsive**
-
-- Tous les frameworks sont capables de gérer les API et les communications nécessaires pour les applications mobiles, bien que certains (comme Django et Express) soient plus couramment utilisés dans des configurations Web et mobiles.
+- <a href="https://www.geeksforgeeks.org/frameworks-for-backend-development/" target="_blank">GeeksForGeeks</a>
+- <a href="https://radixweb.com/blog/best-backend-frameworks" target="_blank">Radixweb.com</a>
+- <a href="https://blog.logrocket.com/6-top-go-web-frameworks/" target="_blank">LogRocket.com</a>
 
 ### E - Bases de données
 
@@ -377,53 +293,127 @@ Concernant la base de données le critère les critères les plus importants pou
 | **Firebase Firestore** | 3           | 5           | 4         | 4                 | 5        | 3     | 4              | 5           | 4                      |
 | **DynamoDB**         | 4           | 5           | 5         | 4                 | 5        | 3     | 3              | 5           | 4                      |
 
-**Performance**
+**Les base de données SQL & NoSQL**
 
-- **PostgreSQL** offre des performances élevées, particulièrement pour les applications transactionnelles et les requêtes complexes.
-- **MongoDB** est rapide pour les applications nécessitant des opérations d’écriture fréquentes et volumineuses grâce à son modèle de données non relationnel.
-- **MySQL** est stable et performant pour des transactions standards, bien que moins performant que PostgreSQL dans les environnements nécessitant des requêtes avancées.
-- **Firebase Firestore** et **DynamoDB** sont conçus pour le cloud et offrent de bonnes performances pour des applications distribuées et mobiles, mais peuvent être plus lents pour des requêtes relationnelles complexes.
+Les bases de données SQL et NoSQL diffèrent principalement dans leur modèle de données, leur flexibilité, et leurs cas d’utilisation privilégiés. Les bases de données SQL, aussi appelées relationnelles, sont structurées en tables avec des lignes et des colonnes, permettant de définir des relations précises entre les données via des clés étrangères et des jointures. Ce modèle favorise une organisation rigide qui garantit l’intégrité et la consistance des données grâce au respect des propriétés ACID (Atomicité, Cohérence, Isolation, Durabilité). SQL est ainsi idéal pour des applications où la précision des transactions est cruciale, comme les systèmes financiers et les e-commerces.
 
-**Scalabilité**
+Les bases de données NoSQL, également appelées non relationnelles, adoptent une approche plus flexible en stockant les données sous forme de documents, de paires clé-valeur, de colonnes, ou de graphes. Cette structure est adaptée aux données non structurées ou semi-structurées, ce qui permet d’évoluer et de s’adapter facilement aux modifications de structure. De plus, les bases de données NoSQL sont optimisées pour l’évolutivité horizontale (cf: explications du framework Srping Boot), ce qui signifie qu’elles peuvent gérer des volumes de données massifs en répartissant la charge sur plusieurs serveurs. Ces bases de données sont particulièrement adaptées aux applications nécessitant une haute disponibilité et une flexibilité de stockage, comme les réseaux sociaux, le big data, et les applications IoT.
 
-- **MongoDB**, **Firestore**, et **DynamoDB** sont conçus pour la scalabilité horizontale, ce qui les rend adaptés aux applications nécessitant un traitement de données volumineuses et une distribution rapide.
-- **PostgreSQL** et **MySQL** permettent la scalabilité, mais la mise en place d’une scalabilité horizontale est plus complexe en comparaison des bases de données NoSQL.
+**MongoDB**
 
-**Fiabilité**
+MongoDB est une base de données NoSQL, idéale pour les données non structurées et les applications nécessitant une grande flexibilité et une évolutivité horizontale. Elle stocke les données sous forme de documents JSON, ce qui facilite l’ajout ou la modification de champs. MongoDB est souvent privilégiée pour les applications de gestion de contenu, d'e-commerce ou d'analyses en temps réel. Elle offre une haute disponibilité grâce à la réplication et une mise à l'échelle aisée via le partitionnement, ce qui en fait un bon choix pour les projets à fort volume de données.
 
-- **PostgreSQL** et **MySQL** sont extrêmement fiables pour des transactions ACID, offrant une cohérence forte et des mécanismes de sauvegarde éprouvés.
-- **DynamoDB** et **Firestore** offrent une haute disponibilité et une fiabilité basée sur des architectures de réplication en cloud.
-- **MongoDB** est également fiable, mais son modèle de cohérence eventual peut introduire des risques de décalage en fonction des besoins spécifiques de l’application.
+**PostgreSQL**
 
-**Modèle de Données**
+PostgreSQL est une base de données relationnelle robuste, conforme aux normes ACID, qui favorise l'intégrité des données et supporte des requêtes SQL complexes. Conçue pour des données structurées, elle est particulièrement efficace pour les applications transactionnelles et d'e-commerce, grâce à des fonctionnalités avancées de gestion des transactions et d'indexation. PostgreSQL est aussi extensible et supporte JSON, offrant une certaine flexibilité pour des cas d'usage hybrides avec des données semi-structurées.
 
-- **MongoDB** est idéal pour les données non structurées ou semi-structurées, grâce à son modèle de document JSON.
-- **PostgreSQL** et **MySQL** sont plus adaptés aux applications nécessitant un modèle de données relationnel structuré.
-- **Firestore** et **DynamoDB** sont optimisés pour le stockage et la récupération rapide de données JSON, facilitant leur intégration avec des applications web et mobiles modernes.
+**MySQL**
 
-**Sécurité**
+MySQL est également une base de données relationnelle, elle est largement utilisée pour sa simplicité et sa fiabilité. Elle convient bien aux applications web de petite à moyenne envergure, comme les systèmes de gestion de contenu ou les applications de type blog. MySQL permet une mise à l'échelle horizontale via le partitionnement et la réplication, mais peut être limitée pour des charges de travail plus complexes nécessitant des jointures et des transactions ACID complexes.
 
-- **PostgreSQL**, **MySQL**, **Firestore**, et **DynamoDB** offrent des options robustes en matière de sécurité, y compris le chiffrement des données en transit et au repos, ainsi que des contrôles d’accès granulaires.
-- **MongoDB** propose également une bonne sécurité, mais l’activation de certaines fonctionnalités de sécurité nécessite une configuration manuelle et des ajustements.
+**Firebase**
 
-**Coûts**
+Firebase est une base de données NoSQL qui se distingue par ses capacités de synchronisation en temps réel et son intégration avec des applications mobiles, notamment via la Google Cloud Platform. Elle est idéale pour les jeux, le chat en direct et les réseaux sociaux, avec des fonctionnalités comme le mode hors ligne et une gestion simplifiée des utilisateurs et des notifications. Cependant, Firebase est fortement liée à l’écosystème Google, ce qui peut poser des défis en matière de migration vers d'autres plateformes.
 
-- **MySQL** et **PostgreSQL** sont open-source, ce qui en fait des options rentables pour de nombreuses entreprises, bien qu'ils puissent nécessiter des coûts d'infrastructure et d'administration.
-- **Firestore** et **DynamoDB** sont basés sur l’usage dans le cloud, avec des coûts variables en fonction de l’utilisation, ce qui peut devenir coûteux pour des applications avec une grande quantité de données.
-- **MongoDB** est également open-source, mais les services de cloud gérés par MongoDB (MongoDB Atlas) ont un coût.
+**DynamoDB**
 
-**Administration**
+DynamoDB une autre base de données NoSQL d'Amazon Web Services (AWS), est conçue pour des applications nécessitant une évolutivité et des performances élevées, comme l'IoT ou les analyses de flux de données. Elle supporte un modèle de clé-valeur flexible et propose une scalabilité automatique en fonction de la charge de travail. DynamoDB est adaptée aux charges de travail imprévisibles et s'intègre parfaitement aux autres services AWS, bien qu’elle soit limitée pour les requêtes SQL complexes.
 
-- **MySQL** et **PostgreSQL** sont bien documentés et disposent d’outils d’administration avancés, mais nécessitent souvent un DBA pour la gestion avancée.
-- **Firestore** et **DynamoDB** sont intégrés dans leurs écosystèmes cloud (respectivement Google Cloud et AWS), réduisant les efforts d’administration.
-- **MongoDB** dispose de MongoDB Atlas pour le cloud, simplifiant la gestion mais ajoutant un coût.
+**Sources :**
 
-**Intégration**
+- <a href="https://aws.amazon.com/fr/compare/the-difference-between-mongodb-and-postgresql/#:~:text=MongoDB%20is%20a%20non%2Drelational,tables%20with%20rows%20and%20columns." target="_blank">AWS</a>
+- <a href="https://www.sprinkledata.com/blogs/mysql-vs-dynamodb-a-comprehensive-comparison" target="_blank">Sprinkle Data</a>
+- <a href="https://www.ionos.com/digitalguide/server/know-how/mongodb-vs-firebase/" target="_blank">IONOS</a>
+- <a href="https://www.ovhcloud.com/fr/learn/sql-vs-nosql/" target="_blank">OVHCloud</a>
 
-- **Firestore**, **DynamoDB**, et **MongoDB** s’intègrent bien avec les environnements JavaScript et les applications mobiles, offrant des APIs pratiques pour le développement rapide.
-- **PostgreSQL** et **MySQL** sont compatibles avec de nombreux langages et plateformes et bénéficient d’un large support pour les intégrations externes.
+## III - Choix final
 
-**Support et Communauté**
+### A - Langage Front-End
 
-- **PostgreSQL**, **MySQL**, et **MongoDB** bénéficient de communautés actives, de documentations étendues et de nombreux forums d’assistance.
-- **Firestore** et **DynamoDB** sont supportés par Google Cloud et AWS respectivement, avec une assistance technique dédiée, mais leurs communautés sont légèrement plus restreintes.
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png" width="30px" alt="Typescript logo" />
+
+**Typescript**
+
+Pour le langage Front-End nous allons utiliser du Typescript. Comme dit précédemment Typescript est une surcouche à Javascript et Javascript est idéale pour le développement d'application côté client. L'utilisation de Typescript est justifiée pour sa sécurité (notamment grâce au typage) et son éfficacité. Il est utilisable avec tous les frameworks Fron-End, son utilisation permet un large panel de fonctionnalités.
+
+De plus, le développeur a une bonne maîtrise de Javascript, Typescript permet de continuer à exploiter cet écosystème tout en ajoutant des fonctionnalités supplémentaires.
+
+In fine Typescript nous fera bénéficier d'une meilleure gestion du code à long terme, facilitant la maintenance et l'évolution de l'application à mesure qu'elle se développe.
+
+<u>Justifications :</u>
+
+- **Sécurité**
+- **Maintenance**
+- **Scalabilité**
+
+### B - Framework Front-End
+
+<img src="https://seeklogo.com/images/A/angular-icon-logo-5FC0C40EAC-seeklogo.com.png" width="30px" alt="AngularJS logo" />
+
+**AngularJS**
+
+Nous utiliserons Angular comme framework Front-End.
+
+Le choix d'Angular est justifié par une vision long-termisme, en effet nous souhaitons ne pas avoir à faire de migrations. Pour le développement d'un MVP une autre technologie pourrait être plus adaptée, cependant nous souhaitons dès le début du développement de la plateforme utiliser une  technologie qui va permettre un développement scalable de l'application. Ainsi Angular est le choix par excellence. Angular offre une structure bien définie avec des modules, services et directives, ce qui est crucial pour un projet ayant une vision comme la notre et un besoin d'évolution.
+
+Le framework est conçu pour être extensible, ce qui facilite l'ajout de nouvelles fonctionnalités et l'extension de l'application, répondant ainsi à la nécessité de faire évoluer la plateforme pour intégrer plus de jeux de combat.
+
+De plus, Angular propose des outils de sécurisation (comme la gestion des injections de dépendances).
+
+<u>Justifications :</u>
+
+- **Scalabilité**
+- **Sécurité**
+
+### C - Langage Back-End
+
+<img src="https://logos-marques.com/wp-content/uploads/2021/03/Java-Logo.png" width="30px" alt="Java logo"/>
+
+**Java**
+
+Java est le choix idéal pour le développement de notre plateforme côté Back-End.
+Le Back-End sera utilisé pour l'ensemble des environnements (web, mobile).
+
+Notre choix s'est porté sur Java car avec son écosystème solide et sa capacité à gérer des applications complexes, Java répond aux besoins d'une plateforme évolutive qui doit traiter de grandes quantités de données à long terme si l'application venait à évoluer dans ce sens.
+Il offre une gestion de la mémoire et des performances exceptionnelles, ce qui est important pour une application nécessitant une forte capacité de traitement et une gestion efficace des données.
+
+Aussi il est très utilisé et soutenu par une large communauté, ce qui garantit une vaste documentation, des outils et des bibliothèques pour accélérer le développement.
+
+<u>Justifications :</u>
+
+- **Performance**
+- **Écosystème**
+
+### D - Framework Back-End
+
+<img src="https://img.icons8.com/?size=512&id=90519&format=png" width="30px" alt="Spring Boot logo" />
+
+**Spring Boot**
+
+Pour accompagner le développement en Java nous utiliserons le framework Back-End Spring Boot.
+
+Spring Boot permet de construire des applications performantes et scalables, ce qui est essentiel pour une plateforme qui doit évoluer avec l'ajout de nouvelles fonctionnalités et jeux de combat.
+Il propose de nombreux mécanismes de sécurité, comme la gestion des sessions, la protection contre les attaques XSS et CSRF, ce qui est crucial pour garantir la sécurité des utilisateurs et des coachs e-sportifs sur la plateforme.
+De plus, il facilite le développement rapide grâce à ses fonctionnalités de configuration automatique et sa large adoption dans les entreprises, ce qui permet de maintenir un bon niveau de productivité avec un code simple et robuste.
+
+<u>Justifications :</u>
+
+- **Sécurité**
+- **Communauté**
+- **Scalabilité**
+
+### E - Base de données
+
+<img src="https://www.svgrepo.com/show/331488/mongodb.svg" width="30px" alt="MongoDB logo" />
+
+**MongoDB**
+
+Le choix de la base de données va se porter sur MongoDB notamment pour des besoins de flexibilité.
+
+L'application étant encore en constructions énorméments de changements auront lieux lors du développement et dans ces conditions forte en variabilité dans la structure des données, MongoDB est une option intéressante, notamment pour des données non structurées ou semi-structurées (par exemple, des profils de joueurs, des roadmaps personnalisées). MongoDB est particulièrement performant pour les applications avec de gros volumes de données et une forte exigence de scalabilité horizontale.
+
+<u>Justifications :</u>
+
+- **Flexibilité**
+- **Simplicité**
+- **Performance**
